@@ -1,0 +1,33 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "learn express fremawork",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.12.5",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^1.12.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaindrag/express-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezaindrag/express-app/issues"
+  },
+  "homepage": "https://github.com/rezaindrag/express-app#readme"
+}
